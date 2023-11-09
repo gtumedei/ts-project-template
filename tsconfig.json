@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "lib": ["ESNext"],
     "allowSyntheticDefaultImports": true,
@@ -18,11 +18,5 @@
     "skipLibCheck": true,
     "strict": true,
     "rootDir": "./src"
-  },
-  "ts-node": {
-    "transpileOnly": true,
-    "swc": true,
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
   }
 }
