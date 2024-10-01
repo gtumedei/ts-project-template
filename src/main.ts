@@ -1,4 +1,4 @@
-import { getFilename, getDirname } from "./esm-utils"
+import { getFilename, getDirname } from "~/esm-utils"
 
 console.log(`NODE_ENV: ${process.env.NODE_ENV}`)
 console.log(`__filename: ${getFilename(import.meta.url)}}`)
